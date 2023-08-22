@@ -1,16 +1,31 @@
-### Hi there 👋
+<div class="animation-frame">
+  <div class="bouncing-animation">
+    <p>Hello 👋</p>
+    <p>I'm Kirill and I'm an iOS developer.</p>
+    <p>Thank you for visiting my GitHub. Welcome!</p>
+  </div>
+</div>
 
-<!--
-**KirillS97/KirillS97** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<style>
+.animation-frame {
+  background-color: #202020;
+  padding:20px;
+  border: 0px solid #ccc;
+}
 
-Here are some ideas to get you started:
+.bouncing-animation p {
+  font-family: monospace;
+  color: white;
+  font-size: 22px;
+  animation: bounce 1s alternate infinite;
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+@keyframes bounce {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+</style>
